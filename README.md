@@ -153,13 +153,14 @@ python3 test.py
 # Citing
 
 ```
-@article{algabri2024real,
-  title={Real-time 6DoF full-range markerless head pose estimation},
-  author={Algabri, Redhwan and Shin, Hyunsoo and Lee, Sungon},
-  journal={Expert Systems with Applications},
-  volume={239},
-  pages={122293},
-  year={2024},
-  publisher={Elsevier}
+@article{algabri2025wquatnet,
+  title={WQuatNet: Wide range quaternion-based head pose estimation},
+  author={Algabri, Redhwan and Shin, Hyunsoo and Abdu, Ahmed and Bae, Ji-Hun and Lee, Sungon},
+  journal={Journal of King Saud University Computer and Information Sciences},
+  volume={37},
+  number={3},
+  pages={24},
+  year={2025},
+  publisher={Springer}
 }
 ```
