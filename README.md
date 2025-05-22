@@ -90,34 +90,7 @@ WQuatNet: Wide range quaternion-based head pose estimation
 
   
 
-## **Run demo codes**
 
-Download the pre-trained RepVGG model '**cmu.pth**'  for the full range angles or '**300W_LP.pth**' for narrow range angles from [here](https://drive.google.com/drive/folders/1Du7GPb3Xf2eb5ZbWnXhbSFQxC1B3K7fG?usp=sharing) and the pre-trained SSD model '**Head_detection_300x300.pb**' from [here](https://drive.google.com/file/d/1ESdQQu4yjhdCTRq8iNYTQcXKNt5MsMV6/view?usp=sharing) and then save them in their certain directory (please see our code to know their paths).
-
-To run **demo_3DoF.py**. You can run it directly.
-```
-demo_3DoF.py
-```
-
-But, to run **demo_6DoF.py**. You need to install ROS from [here](https://wiki.ros.org/Distributions).
-
-Maybe you need some time to learn how to install ROS and how it works.
-
-After installing ROS. The roscore can be launched using the roscore executable:
-
-```
-roscore
-```
-Then run an RGB-D camera, for example, if it is  realsense d435i. 
-
-```
-roslaunch realsense2_camera rs_camera.launch filters:=pointcloud,colorizer align_depth:=true ordered_pc:=true
-```
-Then, run:
-
-```
-demo_6DoF.py
-```
 
 ## **Training for rotational (yaw, pitch, and roll)  components**:
 
