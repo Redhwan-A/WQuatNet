@@ -27,6 +27,26 @@ WQuatNet: Wide range quaternion-based head pose estimation
 ## **Our results**
 * **Trained and tested on CMU Panoptic datasets.**
 
+| Method          | Retrain? | Yaw      | Pitch    | Roll     | MAE      |
+| --------------- | -------- | -------- | -------- | -------- | -------- |
+| DirectMHP       | Yes      | 5.86     | 8.25     | 7.25     | 7.12     |
+| DirectMHP       | No       | 5.75     | 8.01     | 6.96     | 6.91     |
+| 6DRepNet        | Yes      | 5.20     | 7.22     | 6.00     | 6.14     |
+| 6DoF-HPE (ours) | Yes      | **5.13** | **6.99** | **5.77** | **5.96** |
+| WQuatNet (ours) | Yes      | **4.67** | **6.77** | **5.42** | **5.62** |
+
+
+| Method          | Retrain? | Yaw      | Pitch    | Roll     | MAE      |
+| --------------- | -------- | -------- | -------- | -------- | -------- |
+| Viet et al.     | No       | 9.55     | 11.29    | 8.32     | 9.72     |
+| DirectMHP       | Yes      | 7.38     | 8.56     | 7.47     | 7.80     |
+| DirectMHP       | No       | 7.32     | 8.54     | 7.35     | 7.74     |
+| WHENet          | No       | 8.51     | 7.67     | 6.78     | 7.65     |
+| Cobo et al.     | No       | –        | –        | –        | 7.45     |
+| 6DRepNet        | Yes      | 5.89     | 7.76     | 6.39     | 6.68     |
+| 6DoF-HPE (ours) | Yes      | **5.83** | **7.63** | 6.35     | **6.60** |
+| WQuatNet (ours) | Yes      | 6.04     | 7.72     | **6.34** | 6.70     |
+
 
 | Method         | Retrain? | Yaw   | Pitch | Roll  | MAE   |
 |----------------|----------|-------|-------|-------|-------|
