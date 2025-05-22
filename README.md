@@ -25,7 +25,7 @@ WQuatNet: Wide range quaternion-based head pose estimation
 
 
 ## **Our results**
-* **Trained and tested on CMU Panoptic datasets.**
+* **Table 1: MAE values for the CMU dataset obtained using different methods for Narrow-range angles: −90◦ < yaw < 90◦.**
 
 | Method          | Retrain? | Yaw      | Pitch    | Roll     | MAE      |
 | --------------- | -------- | -------- | -------- | -------- | -------- |
