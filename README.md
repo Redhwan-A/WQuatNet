@@ -94,6 +94,19 @@ WQuatNet: Wide range quaternion-based head pose estimation
 | **WQuatNet (ours)**  | ✅ | Q  | 3.39         | **4.62** | **3.23** | **3.75** | 3.91     | 4.20     | **2.64** | 3.58     |
 
 
+* **Table 4: MAE values for the BIWI dataset (split in a 70:30 ratio) using different methods.**
+
+
+| Method              | RR | Yaw      | Pitch    | Roll     | MAE      |
+| ------------------- | -- | -------- | -------- | -------- | -------- |
+| FSA-Net             | E  | 2.89     | 4.29     | 3.60     | 3.59     |
+| HopeNet             | E  | 3.29     | 3.39     | 3.00     | 3.23     |
+| MFDNet              | RM | 2.99     | 3.68     | 2.99     | 3.22     |
+| SRNet               | Q  | 3.01     | 2.78     | 2.86     | 2.88     |
+| 6DRepNet            | 6D | 2.69     | 2.92     | 2.36     | 2.66     |
+| TokenHPE            | RM | 3.01     | **2.28** | **2.01** | 2.43     |
+| **WQuatNet (ours)** | Q  | **2.39** | 2.37     | 2.08     | **2.28** |
+
 
 # Datasets
 
