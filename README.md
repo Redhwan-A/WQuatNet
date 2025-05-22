@@ -36,6 +36,8 @@ WQuatNet: Wide range quaternion-based head pose estimation
 | WQuatNet (ours) | Yes      | **4.67** | **6.77** | **5.42** | **5.62** |
 
 * **Table 1: MAE values for the CMU dataset obtained using different methods for Full-range angles: −180◦ < yaw < 180◦.**
+
+  
 | Method          | Retrain? | Yaw      | Pitch    | Roll     | MAE      |
 | --------------- | -------- | -------- | -------- | -------- | -------- |
 | Viet et al.     | No       | 9.55     | 11.29    | 8.32     | 9.72     |
