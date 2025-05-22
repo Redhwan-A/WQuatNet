@@ -6,25 +6,6 @@ WQuatNet: Wide range quaternion-based head pose estimation
 # Results visualization
 
 
-
-<table>
-<tr>
-<td><img src="https://github.com/Redhwan-A/6DoF-HPE/blob/main/gif/6DoF-Hpe.gif" height="240"></td>
-<td><img src="https://github.com/Redhwan-A/6DoF-HPE/blob/main/gif/6DoF.gif" height="240"></td>  
-</tr>
-</table>
-
-
-<p align="center">
-  Gif: 6DoF-HPE (left side) 
-  and one by one (<a href="https://kagenova.com/blog/tech/2018/07/03/6DOF-motion.html">right side</a>)  
-</p>
-
-
-
-* **Video**:  You can see a demo video [here](https://www.youtube.com/watch?v=WWmBZ_2eiaE) and [here](https://www.youtube.com/watch?v=j6g8TqtIwKw&t=9s), which displays a comparison between our work with other works.
-
-
 <table>
 <tr>
 <td><img src="images/cmu1.jpg" height="160"></td>
