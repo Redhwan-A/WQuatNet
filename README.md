@@ -1,5 +1,5 @@
 # WQuatNet
-** WQuatNet: Wide range quaternion-based head pose estimation [here](https://link.springer.com/article/10.1007/s44443-025-00034-1) **
+**WQuatNet: Wide range quaternion-based head pose estimation [here](https://link.springer.com/article/10.1007/s44443-025-00034-1)**
 
 
 
