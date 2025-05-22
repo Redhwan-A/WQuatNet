@@ -19,7 +19,7 @@ WQuatNet: Wide range quaternion-based head pose estimation
 </tr>
 </table>
 
-* **Fig.** Snapshots of 7 different views from one sequence in the CMU Panoptic val-set dataset.
+* **Fig.** Snapshots of 8 different views from one sequence in the AGORA Panoptic val-set dataset.
 
 
 
