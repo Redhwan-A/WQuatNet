@@ -50,6 +50,29 @@ WQuatNet: Wide range quaternion-based head pose estimation
 | WQuatNet (ours) | Yes      | 6.04     | 7.72     | **6.34** | 6.70     |
 
 
+* **Table 2: MAE values for the AGORA dataset obtained using different methods for Narrow-range angles: −90◦ < yaw < 90◦.**
+
+| Method              | Retrain? | RR | Yaw       | Pitch    | Roll     | MAE       |
+| ------------------- | -------- | -- | --------- | -------- | -------- | --------- |
+| DirectMHP           | ✅        | E  | 12.10     | 12.86    | 11.43    | 12.13     |
+| 6DoF-HPE (ours)     | ✅        | 6D | 13.92     | 10.66    | 10.24    | 11.61     |
+| 6DRepNet            | ✅        | 6D | 13.03     | 10.51    | 10.25    | 11.26     |
+| DirectMHP           | ❌        | E  | 11.19     | 9.89     | 10.46    | 10.51     |
+| **WQuatNet (ours)** | ✅        | Q  | **10.66** | **9.99** | **9.60** | **10.08** |
+
+
+* **Table 2: MAE values for the AGORA dataset obtained using different methods for Full-range angles: −180◦ < yaw < 180◦.**
+
+| Method              | Retrain? | RR | Yaw       | Pitch     | Roll      | MAE       |
+| ------------------- | -------- | -- | --------- | --------- | --------- | --------- |
+| DirectMHP           | ✅        | E  | 13.39     | 15.68     | 12.08     | 13.72     |
+| 6DoF-HPE (ours)     | ✅        | 6D | 15.07     | 11.74     | 11.04     | 12.62     |
+| 6DRepNet            | ✅        | 6D | 14.67     | **11.57** | 10.92     | 12.39     |
+| DirectMHP           | ❌        | E  | **12.28** | 12.42     | 11.02     | 11.91     |
+| **WQuatNet (ours)** | ✅        | Q  | 12.84     | 11.58     | **10.80** | **11.74** |
+
+
+
 
 * **Trained on 300W-LP, and then test on AFLW2000 and BIWI.**
 
