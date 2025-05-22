@@ -8,6 +8,7 @@
 
 </tr>
 </table>
+
 * **Fig.**  shows the difference between the narrow and full ranges.
 
 
