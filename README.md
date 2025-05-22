@@ -159,7 +159,8 @@ Then, you can test your model.
 python3 test.py
 ```
 
-
+If you are too lazy to do the above steps, you can download the pre-trained RepVGG model to run your application. 
+'CMU_WQuatNet.pth [here](https://drive.google.com/file/d/1EzVFYVCjFmZrbK3bwlyIvF2swtUWzdqd/view?usp=drive_link)' and   'AGORA_WQuatNet.pth'  for the full range angles or '300W_LP_WQuatNet.pth' for narrow range angles.
 
 # Citing
 
