@@ -2,6 +2,14 @@
 **WQuatNet: Wide range quaternion-based head pose estimation [here](https://link.springer.com/article/10.1007/s44443-025-00034-1)**
 
 
+<table>
+<tr>
+<td><img src="images/1" height="240"></td>
+
+</tr>
+</table>
+
+
 
 # Results visualization
 
