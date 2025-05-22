@@ -8,13 +8,14 @@ WQuatNet: Wide range quaternion-based head pose estimation
 
 <table>
 <tr>
-<td><img src="images/cmu1.jpg" height="160"></td>
-<td><img src="images/cmu4.jpg" height="160"></td> 
-<td><img src="images/cmu13.jpg" height="160"></td> 
-<td><img src="images/cmu14.jpg" height="160"></td> 
-<td><img src="images/cmu15.jpg" height="160"></td>
-<td><img src="images/cmu18.jpg" height="160"></td> 
-<td><img src="images/cmu20.jpg" height="160"></td> 
+<td><img src="images/AGORA1.jpg" height="160"></td>
+<td><img src="images/AGORA2.jpg" height="160"></td> 
+<td><img src="images/AGORA3.jpg" height="160"></td> 
+<td><img src="images/AGORA4.jpg" height="160"></td> 
+<td><img src="images/AGORA5.jpg" height="160"></td>
+<td><img src="images/AGORA6.jpg" height="160"></td> 
+<td><img src="images/AGORA7.jpg" height="160"></td> 
+<td><img src="images/AGORA8.jpg" height="160"></td> 
 </tr>
 </table>
 
