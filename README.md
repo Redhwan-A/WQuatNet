@@ -130,7 +130,7 @@
 
 
 
-## **Training for rotational (yaw, pitch, and roll)  components**:
+## **For Training**:
 
 If you **only** need to change the pre-trained RepVGG model '**RepVGG-D2se-200epochs-train.pth**' please see [here](https://drive.google.com/drive/folders/1Avome4KvNp0Lqh2QwhXO6L5URQjzCjUq) and save it in the root directory.
 
@@ -141,7 +141,7 @@ python3 train.py
 
 After training is done. Next step.
 
-##  **Deploy models for rotational (yaw, pitch, and roll)  components**:
+##  **For Deploy models**:
 
 For reparameterization, the trained models into inference models use the convert script.
 
@@ -153,7 +153,7 @@ After converting the training model into an inference model.
 Then, you can test your model.
 
 
-## **Testing for rotational (yaw, pitch, and roll)  components**:
+## **For Testing**:
 
 ```
 python3 test.py
