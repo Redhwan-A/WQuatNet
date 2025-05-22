@@ -35,7 +35,7 @@ WQuatNet: Wide range quaternion-based head pose estimation
 | 6DoF-HPE (ours) | Yes      | **5.13** | **6.99** | **5.77** | **5.96** |
 | WQuatNet (ours) | Yes      | **4.67** | **6.77** | **5.42** | **5.62** |
 
-
+* **Table 1: MAE values for the CMU dataset obtained using different methods for Full-range angles: −180◦ < yaw < 180◦.**
 | Method          | Retrain? | Yaw      | Pitch    | Roll     | MAE      |
 | --------------- | -------- | -------- | -------- | -------- | -------- |
 | Viet et al.     | No       | 9.55     | 11.29    | 8.32     | 9.72     |
@@ -47,22 +47,6 @@ WQuatNet: Wide range quaternion-based head pose estimation
 | 6DoF-HPE (ours) | Yes      | **5.83** | **7.63** | 6.35     | **6.60** |
 | WQuatNet (ours) | Yes      | 6.04     | 7.72     | **6.34** | 6.70     |
 
-
-| Method         | Retrain? | Yaw   | Pitch | Roll  | MAE   |
-|----------------|----------|-------|-------|-------|-------|
-| WHENet         | No       | 37.96 | 22.7  | 16.54 | 25.73 |
-| HopeNet        | No       | 20.40 | 17.47 | 13.40 | 17.09 |
-| FSA-Net        | No       | 17.52 | 16.31 | 13.02 | 15.62 |
-| Img2Pose       | No       | 12.99 | 16.69 | 15.64 | 15.11 |
-| DirectMHP      | Yes      | 5.86  | 8.25  | 7.25  | 7.12  |
-| DirectMHP      | No       | 5.75  | 8.01  | 6.96  | 6.91  |
-| 6DRepNet       | Yes      | 5.20  | 7.22  | 6.00  | 6.14  |
-| 6DoF-HPE (ours)  | Yes      | **5.13**  | **6.99**  | **5.77**  | **5.96** |
-| WHENet         | No       | 29.87 | 19.88 | 14.66 | 21.47 |
-| DirectMHP      | Yes      | 7.38  | 8.56  | 7.47  | 7.80  |
-| DirectMHP      | No       | 7.32  | 8.54  | 7.35  | 7.74  |
-| 6DRepNet       | Yes      | 5.89  | 7.76  | 6.39  | 6.68  |
-| 6DoF-HPE (ours)  | Yes      | **5.83**  | **7.63**  | **6.35**  | **6.60**  |
 
 
 * **Trained on 300W-LP, and then test on AFLW2000 and BIWI.**
